@@ -1,8 +1,12 @@
 {
-    "replace": false,
+    "replace": true,
+    "loading_priority": 1,
     "origins": [
+        "origins:human",
+        "default_origins:default_origin",
         "prisms_origins:master",
         "prisms_origins:servant",
-        "prisms_origins:jaina/mania"
+        "jaina_origins:jaina_facet",
+        "jaina_origins:dreamscaper"
     ]
 }

@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "jaina_origins:dreamscaper",
+        "layer": "origins:origin"
+      },
+      "origins": ["jaina_origins:dreamscapers/mania"]
+    }
+  ],
+  "name": "Dreamscaper",
+  "missing_name": "None",
+  "missing_description": "You haven't selected anything."
+}

@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "jaina_origins:jaina_facet",
+        "layer": "origins:origin"
+      },
+      "origins": []
+    }
+  ],
+  "name": "Jaina Facet",
+  "missing_name": "None",
+  "missing_description": "You haven't selected anything."
+}
