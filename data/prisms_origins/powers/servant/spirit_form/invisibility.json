@@ -1,0 +1,10 @@
+{
+  "type": "origins:invisibility",
+  "render_armor": false,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "prisms_origins:servant/spirit_form/spirit_form"
+  },
+  "name": "Invisibility",
+  "description": "Being in Spirit Form makes you invisible to others."
+}

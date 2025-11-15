@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "prisms_origins:jaina/cant_eat"
+    ],
+    "icon": {
+        "id": "minecraft:nether_brick"
+    },
+    "order": 5,
+    "impact": 2,
+    "name": "Mania",
+    "description": "The CEO of Hell."
+}

@@ -1,0 +1,13 @@
+{
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"amount": 0.0,
+		"operation": "set_total"
+	},
+    "condition": {
+        "type": "origins:power_active",
+        "power": "prisms_origins:servant/spirit_form/spirit_form"
+    },
+    "name": "Energy Conservation",
+    "description": "Being in Spirit Form conserves your energy."
+}

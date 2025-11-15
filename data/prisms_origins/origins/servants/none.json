@@ -1,0 +1,10 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:wooden_sword"
+    },
+    "order": 0,
+    "impact": 0,
+    "name": "No Legend",
+    "description": "Your legend has yet to be recorded."
+}

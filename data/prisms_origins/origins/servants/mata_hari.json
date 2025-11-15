@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "prisms_origins:servants/mata_hari/charm_aoe"
+    ],
+    "icon": {
+        "id": "minecraft:sunflower"
+    },
+    "impact": 1,
+    "name": "Mata Hari",
+    "description": "The girl with sunny eyes."
+}

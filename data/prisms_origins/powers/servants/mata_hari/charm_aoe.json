@@ -1,0 +1,28 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true
+    },
+    "entity_action": {
+        "type": "area_of_effect",
+        "shape": "sphere",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action":
+                {
+                    "type": "apply_effect",
+                    "effect": {
+                        "id": "minecraft:slowness",
+                        "amplifier": 8,
+                        "duration": 100
+                    }
+                }
+        },
+        "bientity_condition": {
+            "type": "can_see"
+        }
+    },
+    "name": "Charm",
+    "description": "Stuns enemies."
+}

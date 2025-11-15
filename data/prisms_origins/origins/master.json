@@ -1,0 +1,10 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:end_crystal"
+    },
+    "order": 1,
+    "impact": 1,
+    "name": "Master",
+    "description": "The Master of Chaldea, contracted to many Servants."
+}

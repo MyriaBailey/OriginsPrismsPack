@@ -1,0 +1,23 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 230,
+    "tick_rate": 20,
+    "effect": {
+        "id": "minecraft:strength",
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:precipitation",
+            "precipitation": "snow"
+        }
+    },
+    "name": "Winter Strength",
+    "description": "As the embodiment of drought, snowy environments represent the peak of your power."
+}

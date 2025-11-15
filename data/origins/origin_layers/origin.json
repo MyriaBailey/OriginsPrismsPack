@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "origins": [
+        "prisms_origins:master",
+        "prisms_origins:servant",
+        "prisms_origins:jaina/mania"
+    ]
+}

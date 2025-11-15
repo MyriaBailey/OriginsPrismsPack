@@ -1,0 +1,21 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 61,
+    "tick_rate": 60,
+    "effect": {
+        "id": "minecraft:regeneration",
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "prisms_origins:servant/spirit_form/spirit_form"
+    },
+
+    "name": "Health Regeneration",
+    "description": "Being in Spirit Form conserves energy, allowing you to slowly recover your health."
+}

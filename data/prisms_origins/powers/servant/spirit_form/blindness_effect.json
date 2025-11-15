@@ -1,0 +1,18 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 30,
+    "tick_rate": 10,
+    "effect": {
+        "id": "minecraft:blindness",
+        "amplifier": 5,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "prisms_origins:servant/spirit_form/spirit_form"
+    }
+}

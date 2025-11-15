@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "origins:more_exhaustion"
+    ],
+    "icon": {
+        "id": "minecraft:bone"
+    },
+    "impact": 1,
+    "name": "Barghest",
+    "description": "The Black Hound of Manchester."
+}

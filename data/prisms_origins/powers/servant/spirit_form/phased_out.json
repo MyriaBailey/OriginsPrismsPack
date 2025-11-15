@@ -1,0 +1,60 @@
+{
+    "type": "origins:multiple",
+
+    "cant_use_items": {
+        "type": "origins:prevent_item_use",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        },
+        "name": "Phased Out",
+        "description": "You're in Spirit Form!"
+    },
+
+    "cant_use_entities": {
+        "type": "origins:prevent_entity_use",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        },
+        "name": "Phased Out"
+    },
+
+    "cant_place_blocks": {
+        "type": "origins:prevent_block_place",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        },
+        "name": "Phased Out"
+    },
+
+    "cant_select_blocks": {
+        "type": "origins:prevent_block_selection",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        },
+        "name": "Phased Out"
+    },
+
+    "cant_pickup_items": {
+        "type": "origins:prevent_item_pickup",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        },
+        "name": "Phased Out"
+    },
+
+    "no_entity_collision": {
+        "type": "origins:prevent_entity_collision",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "prisms_origins:servant/spirit_form/spirit_form"
+        }
+    },
+
+    "name": "Phased Out",
+    "description": "While in Spirit Form, your ability to interact with the physical world is severely limited."
+}
