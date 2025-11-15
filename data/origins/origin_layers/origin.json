@@ -7,6 +7,7 @@
         "prisms_origins:master",
         "prisms_origins:servant",
         "jaina_origins:jaina_facet",
-        "jaina_origins:dreamscaper"
-    ]
+        "jaina_origins:dreamscaper",
+        "monochrome_origins:monochrome"
+  ]
 }
