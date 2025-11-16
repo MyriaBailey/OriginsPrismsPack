@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Removed exhaustion",
+    "operation": "set_total",
+    "value": 0.0
+  },
+  "name": "Always Full",
+  "description": "Due to an inability to eat, "
+}

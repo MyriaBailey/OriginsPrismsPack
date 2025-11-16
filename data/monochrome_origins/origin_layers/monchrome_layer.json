@@ -1,0 +1,19 @@
+{
+  "order": 1,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "monochrome_origins:monochrome",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "monochrome_origins:monochromes/ema",
+        "prisms_origins:servants/none"
+      ]
+    }
+  ],
+  "name": "Chroma",
+  "missing_name": "None",
+  "missing_description": "Someone should front."
+}

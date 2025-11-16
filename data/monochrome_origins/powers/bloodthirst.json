@@ -1,0 +1,26 @@
+{
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 2.0
+    },
+    "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "farmersdelight:tools/knives"
+    }
+        }
+    },
+
+    "target_condition": {
+    "type": "origins:in_tag",
+    "tag": "monochrome_origins:bleeds"
+    },
+    "cooldown": 20,
+    "name": "Bloodthirst",
+    "description": "Take a knife to something that bleeds. Savor it."
+}
+

@@ -1,0 +1,10 @@
+{
+  "powers": [""],
+  "icon": {
+    "id": "chipped:alchemy_book"
+  },
+  "order": 1,
+  "impact": 3,
+  "name": "Chroma",
+  "description": "The spectrum unfolds."
+}

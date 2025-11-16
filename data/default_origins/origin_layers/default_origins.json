@@ -1,0 +1,26 @@
+{
+  "order": 1,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "default_origins:default_origin",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "origins:avian",
+        "origins:arachnid",
+        "origins:elytrian",
+        "origins:shulk",
+        "origins:feline",
+        "origins:enderian",
+        "origins:merling",
+        "origins:blazeborn",
+        "origins:phantom"
+      ]
+    }
+  ],
+  "name": "Default Origins",
+  "missing_name": "None",
+  "missing_description": "You haven't selected anything."
+}

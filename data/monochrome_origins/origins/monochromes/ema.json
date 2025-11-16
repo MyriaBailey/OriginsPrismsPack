@@ -1,0 +1,10 @@
+{
+  "powers": ["monochrome_origins:bloodthirst"],
+  "icon": {
+    "id": "minecraft:red_wool"
+  },
+  "order": 0,
+  "impact": 3,
+  "name": "Ema",
+  "description": "The Sanguine Queen."
+}
