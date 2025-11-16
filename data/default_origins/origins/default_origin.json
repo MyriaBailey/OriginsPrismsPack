@@ -1,10 +1,10 @@
 {
   "powers": [],
   "icon": {
-    "id": "minecraft:end_crystal"
+    "id": "minecraft:grass_block"
   },
-  "order": 1,
   "impact": 1,
-  "name": "Default Origin",
-  "description": "Placeholder description lol."
+  "order": 0,
+  "name": "Minecraft Mob",
+  "description": "One of the original Origins, based upon various Minecraft mobs."
 }

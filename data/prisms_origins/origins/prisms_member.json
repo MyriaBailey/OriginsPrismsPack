@@ -1,0 +1,10 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:amethyst_shard"
+    },
+    "impact": 1,
+    "order": 2,
+    "name": "Prisms",
+    "description": "One of the many Prisms."
+}

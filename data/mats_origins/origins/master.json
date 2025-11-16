@@ -1,0 +1,10 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:end_crystal"
+    },
+    "impact": 2,
+    "order": 2,
+    "name": "Master",
+    "description": "A mage who has formed a contract with a Heroic Spirit."
+}

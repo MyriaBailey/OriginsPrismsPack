@@ -3,8 +3,8 @@
   "icon": {
     "id": "minecraft:end_crystal"
   },
-  "order": 4,
   "impact": 2,
+  "order": 1,
   "name": "Dreamscaper",
   "description": "One of the many original imaginings of Goddess Jaina."
 }

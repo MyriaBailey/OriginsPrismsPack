@@ -1,0 +1,43 @@
+{
+    "type": "origins:multiple",
+	
+	"emeralds": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:fire_projectile",
+				"entity_type": "minecraft:wind_charge",
+				"cooldown": 100,
+				"hud_render": {
+					"should_render": false
+				}
+			},
+			{
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"item_action": {
+					"type": "origins:consume",
+					"amount": 1
+				}
+			}
+			
+			]
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:emerald"
+				}
+			}
+		}
+		
+	},
+	
+    "name": "Magecraft C",
+    "description": "Using charged Gems, multiple different kinds of Magecraft can be used even for a Mage like you."
+}

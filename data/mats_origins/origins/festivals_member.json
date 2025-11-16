@@ -1,0 +1,10 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:cake"
+    },
+    "impact": 1,
+    "order": 1,
+    "name": "Festivals",
+    "description": "One of the many Festivals."
+}

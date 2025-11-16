@@ -1,0 +1,19 @@
+{
+    "order": 1,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "mats_origins:master",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "mats_origins:masters/none",
+                "mats_origins:masters/mats"
+            ]
+        }
+    ],
+    "name": "Identity",
+    "missing_name": "None",
+    "missing_description": "You haven't chosen your name."
+}

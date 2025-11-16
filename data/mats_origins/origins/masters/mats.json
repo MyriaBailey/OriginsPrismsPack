@@ -1,0 +1,13 @@
+{
+    "powers": [
+		"mats_origins:masters/mats/charging",
+		"mats_origins:masters/mats/release"
+	],
+    "icon": {
+        "id": "minecraft:snowball"
+    },
+    "order": 1,
+    "impact": 0,
+    "name": "Mats",
+    "description": "The nameless, gloryless Master of Chaldea."
+}

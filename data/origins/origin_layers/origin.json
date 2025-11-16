@@ -4,10 +4,12 @@
     "origins": [
         "origins:human",
         "default_origins:default_origin",
-        "prisms_origins:master",
-        "prisms_origins:servant",
+        "mats_origins:festivals_member",
+        "prisms_origins:prisms_member",
+        "monochrome_origins:monochrome",
         "jaina_origins:jaina_facet",
         "jaina_origins:dreamscaper",
-        "monochrome_origins:monochrome"
+        "mats_origins:master",
+        "prisms_origins:servant"
   ]
 }

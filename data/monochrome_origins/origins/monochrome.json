@@ -3,8 +3,8 @@
   "icon": {
     "id": "chipped:alchemy_book"
   },
-  "order": 1,
-  "impact": 3,
+  "impact": 1,
+  "order": 3,
   "name": "Chroma",
   "description": "The spectrum unfolds."
 }
