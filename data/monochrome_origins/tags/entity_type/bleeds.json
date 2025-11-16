@@ -55,6 +55,7 @@
         "minecraft:vindicator",
         "minecraft:wandering_trader",
         "minecraft:witch",
-        "minecraft:wolf"
+        "minecraft:wolf",
+        "minecraft:player"
     ]
 }
