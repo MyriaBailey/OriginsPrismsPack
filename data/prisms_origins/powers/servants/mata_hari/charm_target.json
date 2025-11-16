@@ -8,7 +8,7 @@
     "entity_action": {
         "type": "origins:raycast",
         "distance": 16,
-        "block": false,
+        "block": true,
         "entity": true,
         "shape_type": "visual",
         "fluid_handling": "none",
@@ -20,15 +20,26 @@
         "bientity_action": {
             "type": "origins:target_action",
             "action": {
-                "type": "apply_effect",
-                "effect": {
-                    "id": "minecraft:slowness",
-                    "amplifier": 8,
-                    "duration": 100
-                }
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "apply_effect",
+                        "effect": {
+                            "id": "minecraft:slowness",
+                            "amplifier": 8,
+                            "duration": 100
+                        }
+                    },
+                    {
+                        "type": "spawn_particles",
+                        "particle": "minecraft:heart",
+                        "count": 8
+                    }
+                ]
             }
+            
         }
     },
     "name": "Charm",
-    "description": "Stuns enemies."
+    "description": "Momentarily stuns whoever you're looking at."
 }
