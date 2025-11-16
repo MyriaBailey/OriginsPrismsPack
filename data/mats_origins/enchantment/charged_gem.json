@@ -1,6 +1,9 @@
 {
   "description": "It's almost glowing.",
-  "supported_items": "minecraft:emerald",
+  "supported_items": [
+    "minecraft:emerald",
+    "minecraft:book"
+  ],
   "weight": 1,
   "max_level": 1,
   "min_cost": {
