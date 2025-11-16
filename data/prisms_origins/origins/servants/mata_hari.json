@@ -1,6 +1,6 @@
 {
     "powers": [
-        "prisms_origins:servants/mata_hari/charm_aoe"
+        "prisms_origins:servants/mata_hari/charm_target"
     ],
     "icon": {
         "id": "minecraft:sunflower"
