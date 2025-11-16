@@ -1,0 +1,12 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "mode": "append",
+    "lore": [
+        {
+            "text": "Hold this to your ear, and you'll hear a raging tornado.",
+            "color": "light_purple",
+            "italic": false
+        }
+    ]
+}
