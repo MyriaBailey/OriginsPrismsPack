@@ -14,7 +14,15 @@
 				"type": "origins:sneaking"
 			},
 			{
-				"type": "origins:on_block"
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:on_block"
+					},
+					{
+						"type": "origins:creative_flying"
+					}
+				]
 			}
 		]
 	},
