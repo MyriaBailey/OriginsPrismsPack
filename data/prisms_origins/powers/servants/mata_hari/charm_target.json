@@ -3,7 +3,9 @@
     "cooldown": 300,
     "key": "key.origins.secondary_active",
     "hud_render": {
-        "should_render": true
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 4
     },
     "entity_action": {
         "type": "origins:raycast",
@@ -15,7 +17,8 @@
         "before_action": {
             "type": "spawn_particles",
             "particle": "minecraft:heart",
-            "count": 8
+            "count": 8,
+            "offset_y": 1
         },
         "bientity_action": {
             "type": "origins:target_action",
