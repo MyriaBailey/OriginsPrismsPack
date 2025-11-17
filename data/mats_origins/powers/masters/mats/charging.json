@@ -7,8 +7,13 @@
 			"type":"origins:and",
 			"actions": [
 			{
-				"type": "origins:execute_command",
-				"command": "enchant @s mats_origins:charged_gem 1"
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"item_action": {
+					"type": "origins:modify",
+					"modifier": "mats_origins:charged"
+				}
+				
 			},
 			{
 				"type": "origins:add_xp",
@@ -39,7 +44,6 @@
 					}
 				}
 			]
-
 		}
 	},
     "name": "Gem Magecraft",

@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      "It surges with power, almost",
+      "enough to burn your hand."
+    ],
+    "mode": "append"
+  },
+    {
+    "function": "apoli:add_power",
+    "power": "mats_origins:masters/mats/release",
+    "slot": "mainhand",
+    "negative": true
+    } 
+]

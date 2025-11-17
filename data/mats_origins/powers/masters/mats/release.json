@@ -25,6 +25,10 @@
 			
 			]
 		},
+		"key": {
+					"key": "key.use",
+					"continuous": false
+		},
 		"condition": {
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
@@ -38,6 +42,6 @@
 		
 	},
 	
-    "name": "Magecraft C",
-    "description": "Using charged Gems, multiple different kinds of Magecraft can be used even for a Mage like you."
+    "name": "Mana Burst (Gem) B+",
+    "description": "Stores within it a spell you couldn't otherwise cast."
 }
