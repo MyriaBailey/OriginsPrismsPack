@@ -1,6 +1,7 @@
 {
     "powers": [
-		"mats_origins:masters/mats/charging"
+		"mats_origins:masters/mats/charging",
+		"mats_origins:masters/mats/craft_essence"
 	],
     "icon": {
         "id": "minecraft:snowball"

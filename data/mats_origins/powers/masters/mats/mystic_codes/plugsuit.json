@@ -1,0 +1,10 @@
+{
+	"type": "origins:multiple",
+	
+	"gandr": {
+		"type": "origins:active_self",
+		"entity_action": 
+	},
+    "name": "Chaldea Combat Uniform",
+    "description": "Standard-issue combat suit."
+}

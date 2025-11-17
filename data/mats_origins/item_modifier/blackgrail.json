@@ -3,21 +3,22 @@
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
-      "It surges with power, almost",
-      "enough to burn your hand."
+      "It bleeds black",
+      "in your hand."
     ],
     "mode": "append"
   },
-    {
-    "function": "apoli:add_power",
-    "power": "mats_origins:masters/mats/release",
-    "slot": "mainhand",
-    "negative": true
-    },
+	{
+	"function": "apoli:add_power",
+	"power": "mats_origins:masters/mats/craft_essences/bgrail",
+	"slot": "offhand",
+	"negative": true
+	},
 	{
 	"function": "minecraft:set_components",
 	"components": {
 		"minecraft:enchantment_glint_override": true
 	}
 	}
+	
 ]

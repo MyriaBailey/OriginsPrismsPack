@@ -1,0 +1,33 @@
+{
+	"type": "origins:multiple",
+	
+	"corrupt": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 1,
+		"max_stacks": 5,
+		"duration_per_stack": 50,
+		"tick_rate": 40,
+		"effect": {
+			"id": "minecraft:wither",
+			"amplifier": 0.5,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		}
+	},
+	"blessing": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 1,
+		"max_stacks": 5,
+		"duration_per_stack": 50,
+		"tick_rate": 40,
+		"effect": {
+			"id": "minecraft:strength",
+			"amplifier": 2,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		}
+	},
+    "name": "Corrupted Grail"
+}

@@ -1,0 +1,37 @@
+{
+	"type": "origins:multiple",
+	
+	"blackgrail": {
+		"type": "origins:item_on_item",
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:paper"
+			}
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:ominous_bottle"
+			}
+		},
+		"result": {
+			"item": "minecraft:paper"
+		},
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "mats_origins:blackgrail"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:add_xp",
+			"levels": -15
+		}
+		
+	},
+    "name": "Craft Essence Creation",
+    "description": "Imbue loose papers with memories to support your allies."
+}
