@@ -1,0 +1,4 @@
+{
+    "condition": "origins:origin",
+    "origin": "mats_origins:masters/mats"
+}
