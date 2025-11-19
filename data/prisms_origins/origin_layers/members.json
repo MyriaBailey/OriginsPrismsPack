@@ -1,0 +1,18 @@
+{
+    "order": 1,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "prisms_origins:prisms_member",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "prisms_origins:members/az"
+            ]
+        }
+    ],
+    "name": "Prisms Member",
+    "missing_name": "None",
+    "missing_description": "You currently haven't selected a Legend."
+}
