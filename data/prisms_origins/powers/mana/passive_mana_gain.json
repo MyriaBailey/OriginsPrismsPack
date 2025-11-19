@@ -1,0 +1,9 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 3000,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "prisms_origins:mana/mana_total",
+        "change": 1
+    }
+}
