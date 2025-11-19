@@ -1,0 +1,24 @@
+{
+  "name": "Reverse Gravity",
+  "description": "Mania can walk on ceilings.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:nbt",
+      "nbt": "{cardinal_components:{\"gravity_changer:gravity_data\": {baseGravityDirection: \"up\"}}}"
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "gravity set_base_direction down @s"
+    },
+    "else_action": {
+      "type": "origins:execute_command",
+      "command": "gravity set_base_direction up @s"
+    }
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "should_render": true
+  }
+}

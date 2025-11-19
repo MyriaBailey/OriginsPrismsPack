@@ -1,0 +1,14 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:heal",
+    "amount": 1
+  },
+  "interval": 600,
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:nausea",
+    "inverted": true
+  }
+}

@@ -1,5 +1,12 @@
 {
-  "powers": ["jaina_origins:cant_eat"],
+  "powers": [
+    "jaina_origins:cant_eat",
+    "jaina_origins:cant_starve",
+    "jaina_origins:slow_regen",
+    "jaina_origins:cant_sleep",
+    "jaina_origins:reverse_gravity",
+    "jaina_origins:kumas_curse"
+  ],
   "icon": {
     "id": "minecraft:nether_brick"
   },

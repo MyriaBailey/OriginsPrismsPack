@@ -1,8 +1,8 @@
 {
-    "type": "origins:prevent_item_use",
-    "item_condition": {
-        "type": "origins:food"
-    },
-    "name": "Can't Eat",
-    "description": "Food tastes awful, and can't be consumed or digested."
+  "name": "Can't Eat",
+  "description": "Food tastes awful and can't be consumed or digested.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:food"
+  }
 }
