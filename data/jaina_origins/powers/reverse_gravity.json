@@ -5,16 +5,32 @@
   "entity_action": {
     "type": "origins:if_else",
     "condition": {
-      "type": "origins:nbt",
-      "nbt": "{cardinal_components:{\"gravity_changer:gravity_data\": {baseGravityDirection: \"up\"}}}"
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block_collision",
+          "offset_y": 0.1
+        },
+        {
+          "type": "origins:block_collision",
+          "offset_y": -0.1
+        }
+      ]
     },
     "if_action": {
-      "type": "origins:execute_command",
-      "command": "gravity set_base_direction down @s"
-    },
-    "else_action": {
-      "type": "origins:execute_command",
-      "command": "gravity set_base_direction up @s"
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:nbt",
+        "nbt": "{cardinal_components:{\"gravity_changer:gravity_data\": {baseGravityDirection: \"up\"}}}"
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "gravity reset"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "gravity set_base_direction up @s"
+      }
     }
   },
   "cooldown": 100,
