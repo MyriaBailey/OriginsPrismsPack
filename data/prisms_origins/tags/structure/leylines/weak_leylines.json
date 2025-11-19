@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:trail_ruins",
+        "#minecraft:ocean_ruin",
+        "#minecraft:ruined_portal",
+        "minecraft:bastion_remnant",
+        "minecraft:end_city",
+        "minecraft:mansion",
+        "#minecraft:village"
+    ]
+}

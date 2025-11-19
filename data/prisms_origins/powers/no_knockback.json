@@ -18,7 +18,8 @@
         "entity_action": {
             "type": "origins:execute_command",
             "command": "function prisms_origins:apply_knockback_resistance"
-        }
+        },
+        "cooldown": 1000
     },
 
     "name": "Immovable Object",
