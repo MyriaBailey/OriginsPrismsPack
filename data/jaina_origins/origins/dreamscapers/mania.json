@@ -5,7 +5,8 @@
     "jaina_origins:slow_regen",
     "jaina_origins:cant_sleep",
     "jaina_origins:reverse_gravity",
-    "jaina_origins:kumas_curse"
+    "jaina_origins:kumas_curse",
+    "jaina_origins:reset_gravity"
   ],
   "icon": {
     "id": "minecraft:nether_brick"
