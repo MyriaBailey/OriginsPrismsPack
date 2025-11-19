@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "prisms_origins:leylines/strong_leylines",
+        "prisms_origins:leylines/weak_leylines"
+    ]
+}
