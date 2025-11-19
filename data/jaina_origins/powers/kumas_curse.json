@@ -1,0 +1,19 @@
+{
+  "name": "Kuma's Curse",
+  "description": "Standing on the floor too often gives Mania a splitting headache.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": -36,
+  "max_stacks": 1,
+  "duration_per_stack": 600,
+  "tick_rate": 100,
+  "effect": {
+    "id": "minecraft:nausea",
+    "is_ambient": false,
+    "show_particles": false,
+    "show_icon": false
+  },
+  "condition": {
+    "type": "origins:nbt",
+    "nbt": "{cardinal_components:{\"gravity_changer:gravity_data\": {baseGravityDirection: \"down\"}}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Can't Sleep",
+  "description": "No rest for the hard-working.",
+  "type": "origins:prevent_sleep",
+  "set_spawn_point": true,
+  "message": "No rest for the hard-working."
+}

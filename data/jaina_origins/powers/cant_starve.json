@@ -1,0 +1,9 @@
+{
+  "name": "Can't Starve",
+  "description": "Although Mania can't eat, she can't starve to death either.",
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "starve"
+  }
+}
