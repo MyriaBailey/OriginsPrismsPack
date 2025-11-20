@@ -1,11 +1,11 @@
 {
     "powers": [
         "prisms_origins:servants/mata_hari/charm_target",
-        "prisms_origins:mana/mana_total",
-        "prisms_origins:mana/passive_mana_cost",
-        "prisms_origins:mana/passive_mana_gain",
-        "prisms_origins:mana/attacking_mana_cost",
-        "prisms_origins:mana/leyline_mana_gain"
+        "prisms_origins:servant/mana/mana_total",
+        "prisms_origins:servant/mana/passive_mana_cost",
+        "prisms_origins:servant/mana/passive_mana_gain",
+        "prisms_origins:servant/mana/attacking_mana_cost",
+        "prisms_origins:servant/mana/leyline_mana_gain"
     ],
     "icon": {
         "id": "minecraft:sunflower"

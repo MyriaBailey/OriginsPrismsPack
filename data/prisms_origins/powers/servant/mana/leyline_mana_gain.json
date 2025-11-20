@@ -11,7 +11,7 @@
                 },
                 "action": {
                     "type": "origins:change_resource",
-                    "resource": "prisms_origins:mana/mana_total",
+                    "resource": "prisms_origins:servant/mana/mana_total",
                     "change": 1
                 }
             },
@@ -22,7 +22,7 @@
                 },
                 "action": {
                     "type": "origins:change_resource",
-                    "resource": "prisms_origins:mana/mana_total",
+                    "resource": "prisms_origins:servant/mana/mana_total",
                     "change": 2
                 }
             }
