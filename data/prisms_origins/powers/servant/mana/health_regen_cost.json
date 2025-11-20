@@ -1,0 +1,25 @@
+{
+    "type": "action_over_time",
+    "interval": 100,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "prisms_origins:servant/mana/mana_total",
+                "change": -5
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 20
+    },
+    "name": "Body of Magical Energy",
+    "description": "Any injury can be recovered from, so long as you have the mana to repair yourself with."
+}

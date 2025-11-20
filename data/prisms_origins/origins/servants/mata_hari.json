@@ -5,7 +5,8 @@
         "prisms_origins:servant/mana/passive_mana_cost",
         "prisms_origins:servant/mana/passive_mana_gain",
         "prisms_origins:servant/mana/attacking_mana_cost",
-        "prisms_origins:servant/mana/leyline_mana_gain"
+        "prisms_origins:servant/mana/leyline_mana_gain",
+        "prisms_origins:servant/mana/health_regen_cost"
     ],
     "icon": {
         "id": "minecraft:sunflower"
