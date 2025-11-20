@@ -1,0 +1,33 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1200,
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:predicate",
+                    "predicate": "prisms_origins:in_weak_leyline"
+                },
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "prisms_origins:mana/mana_total",
+                    "change": 1
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:predicate",
+                    "predicate": "prisms_origins:in_strong_leyline"
+                },
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "prisms_origins:mana/mana_total",
+                    "change": 2
+                }
+            }
+        ]
+    },
+    "name": "Leyline Mana Absorption",
+    "description": "Being near leylines restores more mana than usual."
+}

@@ -4,5 +4,7 @@
         "type": "origins:change_resource",
         "resource": "prisms_origins:mana/mana_total",
         "change": -1
-    }
+    },
+    "name": "Cost of Battle",
+    "description": "Engaging in battle expends magical energy."
 }

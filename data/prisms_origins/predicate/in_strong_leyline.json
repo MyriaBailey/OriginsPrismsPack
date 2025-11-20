@@ -1,0 +1,5 @@
+{
+    "condition": "location_check",
+    "entity": "this",
+    "structures": "prisms_origins:leylines/strong_leylines"
+}

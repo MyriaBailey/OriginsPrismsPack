@@ -20,5 +20,7 @@
             "show_particles": false,
             "show_icon": true
         }
-    }
+    },
+    "name": "Mana Reserves",
+    "description": "As a Heroic Spirit, you have a costly, yet expansive mana reserve, that far exceeds any ordinary mage."
 }

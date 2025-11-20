@@ -10,5 +10,7 @@
         "type": "origins:power_active",
         "power": "prisms_origins:servant/spirit_form/spirit_form",
         "inverted": true
-    }
+    },
+    "name": "Passive Mana Cost",
+    "description": "Maintaining a physical existence consumes mana."
 }

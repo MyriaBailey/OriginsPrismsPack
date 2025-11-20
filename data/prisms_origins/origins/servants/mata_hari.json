@@ -4,7 +4,8 @@
         "prisms_origins:mana/mana_total",
         "prisms_origins:mana/passive_mana_cost",
         "prisms_origins:mana/passive_mana_gain",
-        "prisms_origins:mana/attacking_mana_cost"
+        "prisms_origins:mana/attacking_mana_cost",
+        "prisms_origins:mana/leyline_mana_gain"
     ],
     "icon": {
         "id": "minecraft:sunflower"
