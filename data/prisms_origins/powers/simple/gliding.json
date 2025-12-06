@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": false,
+    "name": "Limited Flight",
+    "description": "While not quite true flight, you can still glide through the air."
+}

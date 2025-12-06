@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "prisms_origins:simple/no_freezing",
+        "prisms_origins:simple/fire_immunity",
+        "prisms_origins:simple/gliding"
+    ],
+    "icon": {
+        "id": "minecraft:cocoa_beans"
+    },
+    "impact": 1,
+    "order": 3,
+    "name": "Merry",
+    "description": "Everyone's favorite half-dragon."
+}

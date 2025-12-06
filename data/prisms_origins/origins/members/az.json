@@ -1,6 +1,6 @@
 {
     "powers": [
-        "prisms_origins:no_knockback",        
+        "prisms_origins:simple/no_knockback",        
         "prisms_origins:servant/constant_exhaustion",
         "prisms_origins:servant/exhaust_faster",
         "prisms_origins:servant/spirit_form/spirit_form",

@@ -8,7 +8,8 @@
                 "layer": "origins:origin"
             },
             "origins": [
-                "prisms_origins:members/az"
+                "prisms_origins:members/az",
+                "prisms_origins:members/merry"
             ]
         }
     ],

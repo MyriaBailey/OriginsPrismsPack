@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    },
+    "name": "Hot-Blooded",
+    "description": "You cannot be frozen."
+}
