@@ -1,0 +1,20 @@
+gamerule disableRaids false
+gamerule doDaylightCycle true
+gamerule doFireTick true
+gamerule doImmediateRespawn false
+gamerule doInsomnia false
+gamerule doLimitedCrafting false
+gamerule doMobLoot true
+gamerule doMobSpawning true
+gamerule doPatrolSpawning true
+gamerule doTraderSpawning false
+gamerule doWeatherCycle true
+gamerule drowningDamage true
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule forgiveDeadPlayers true
+gamerule lavaSourceConversion false
+gamerule mobGriefing true
+gamerule naturalRegeneration true
+gamerule universalAnger true
+tellraw @a "All gamerules have been reset to default values."

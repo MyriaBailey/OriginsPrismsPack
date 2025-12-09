@@ -1,0 +1,150 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "name": "Reality Jostling",
+    "description": "You can alter reality, but only when it's funny.",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"disableRaids\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doDaylightCycle\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doFireTick\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doImmediateRespawn\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doInsomnia\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doLimitedCrafting\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doMobLoot\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doMobSpawning\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doPatrolSpawning\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doTraderSpawning\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"doWeatherCycle\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"drowningDamage\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"fallDamage\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"fireDamage\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"forgiveDeadPlayers\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"lavaSourceConversion\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"mobGriefing\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"naturalRegeneration\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"universalAnger\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "function prisms_origins:gamerule/toggle {gamerule: \"waterSourceConversion\"}"
+                },
+                "weight": 10
+            }
+        ]
+    }
+}

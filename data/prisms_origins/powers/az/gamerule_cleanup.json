@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "scoreboard objectives add prisms.gamerule_value dummy"
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "function prisms_origins:gamerule/reset_all"
+    },
+    "name": "Reset Altered Rules",
+    "description": "Return all altered gamerules to their default values upon death or leaving the world."
+}

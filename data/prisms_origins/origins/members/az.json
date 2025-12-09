@@ -1,7 +1,8 @@
 {
     "powers": [
-        "prisms_origins:simple/no_knockback",        
-        "prisms_origins:servant/constant_exhaustion",
+        "prisms_origins:simple/no_knockback",
+        "prisms_origins:az/toggle_random_gamerule",
+        "prisms_origins:az/gamerule_cleanup",
         "prisms_origins:servant/exhaust_faster",
         "prisms_origins:servant/spirit_form/spirit_form",
         "prisms_origins:servant/spirit_form/health_recovery",
