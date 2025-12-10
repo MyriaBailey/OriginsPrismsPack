@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "kagerou:creative_flight"
+    ],
+    "icon": {
+        "id": "minecraft:command_block"
+    },
+    "impact": 2,
+    "name": "Opening Eyes",
+    "description": "Your consciousness has been split from your body, allowing you to inhabit a digital form... Such as Minecraft, apparently."
+}

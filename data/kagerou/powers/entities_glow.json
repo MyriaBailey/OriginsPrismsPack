@@ -1,0 +1,10 @@
+{
+    "type": "origins:entity_glow",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "kagerou:red_eyes_toggle"
+    },
+
+    "name": "Aerial View",
+    "description": "You can see the location of entities around you."
+}

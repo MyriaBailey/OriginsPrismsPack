@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "kagerou:red_eyes_toggle",
+        "kagerou:entities_glow"
+    ],
+    "icon": {
+        "id": "minecraft:compass"
+    },
+    "impact": 1,
+    "name": "Focusing Eyes",
+    "description": "You can see the world around you from a different view."
+}

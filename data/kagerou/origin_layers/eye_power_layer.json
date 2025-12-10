@@ -1,0 +1,20 @@
+{
+  "order": 1,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "kagerou:snake_eyes",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "kagerou:retaining_eyes",
+        "kagerou:focusing_eyes",
+        "kagerou:opening_eyes"
+      ]
+    }
+  ],
+  "name": "Snake Eyes",
+  "missing_name": "None",
+  "missing_description": "No eye ability chosen."
+}

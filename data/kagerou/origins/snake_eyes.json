@@ -1,0 +1,9 @@
+{
+  "powers": [],
+  "icon": {
+    "id": "minecraft:ender_eye"
+  },
+  "impact": 1,
+  "name": "Snake Eyes",
+  "description": "A snake lives inside of you, offering you an Eye Ability."
+}
