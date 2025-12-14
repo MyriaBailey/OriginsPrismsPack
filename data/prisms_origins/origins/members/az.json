@@ -3,19 +3,20 @@
         "prisms_origins:simple/no_knockback",
         "prisms_origins:az/toggle_random_gamerule",
         "prisms_origins:az/gamerule_cleanup",
-        "prisms_origins:servant/exhaust_faster",
-        "prisms_origins:servant/spirit_form/spirit_form",
-        "prisms_origins:servant/spirit_form/health_recovery",
-        "prisms_origins:servant/spirit_form/no_exhaust",
-        "prisms_origins:servant/spirit_form/invisibility",
-        "prisms_origins:servant/spirit_form/phased_out",
-        "prisms_origins:servant/spirit_form/invulnerable",
-        "prisms_origins:servant/spirit_form/phasing",
-        "prisms_origins:servant/spirit_form/spirit_overlay",
-        "prisms_origins:servant/spirit_form/shimmer",
-        "prisms_origins:servant/spirit_form/detect_entities",
-        "prisms_origins:servant/spirit_form/quiet",
-        "prisms_origins:servant/spirit_form/creative_flight"
+        
+        "fate_prismscape:servant/exhaust_faster",
+        "fate_prismscape:servant/spirit_form/spirit_form",
+        "fate_prismscape:servant/spirit_form/health_recovery",
+        "fate_prismscape:servant/spirit_form/no_exhaust",
+        "fate_prismscape:servant/spirit_form/invisibility",
+        "fate_prismscape:servant/spirit_form/phased_out",
+        "fate_prismscape:servant/spirit_form/invulnerable",
+        "fate_prismscape:servant/spirit_form/phasing",
+        "fate_prismscape:servant/spirit_form/spirit_overlay",
+        "fate_prismscape:servant/spirit_form/shimmer",
+        "fate_prismscape:servant/spirit_form/detect_entities",
+        "fate_prismscape:servant/spirit_form/quiet",
+        "fate_prismscape:servant/spirit_form/creative_flight"
     ],
     "icon": {
         "id": "minecraft:ender_pearl"

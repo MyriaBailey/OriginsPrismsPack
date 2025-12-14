@@ -9,7 +9,7 @@
       },
       "origins": [
         "monochrome_origins:monochromes/ema",
-        "prisms_origins:servants/none"
+        "monochrome_origins:monochromes/none"
       ]
     }
   ],
