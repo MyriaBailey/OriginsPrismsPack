@@ -17,4 +17,5 @@ gamerule lavaSourceConversion false
 gamerule mobGriefing true
 gamerule naturalRegeneration true
 gamerule universalAnger true
+gamerule waterSourceConversion true
 tellraw @a "All gamerules have been reset to default values."
