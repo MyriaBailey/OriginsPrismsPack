@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:alice/fur_color/black"
+    ],
+    "icon": {
+        "id": "minecraft:black_wool"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Aeon",
+    "description": "The Shadow Cat."
+}

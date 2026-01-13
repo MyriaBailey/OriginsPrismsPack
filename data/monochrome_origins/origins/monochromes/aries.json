@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:aries/flying"
+    ],
+    "icon": {
+        "id": "minecraft:pink_dye"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Aries",
+    "description": "The Pink Fairy."
+}

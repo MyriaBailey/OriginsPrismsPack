@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "*:alice/cat_mode",
+        "*:alice/throw_snowball",
+        "*:alice/snowflakes"
+    ],
+    "icon": {
+        "id": "minecraft:powder_snow_bucket"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Glacialis",
+    "description": "The Ice Cat."
+}

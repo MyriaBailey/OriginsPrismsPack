@@ -1,0 +1,9 @@
+{
+    "type": "origins:particle",
+    "particle": "white_ash",
+    "count": 10,
+    "speed": 0.0,
+    "frequency": 20,
+    "visible_while_invisible": true,
+    "hidden": true
+}

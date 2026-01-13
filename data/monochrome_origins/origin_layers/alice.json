@@ -1,0 +1,20 @@
+{
+  "order": 2,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "*:monochromes/alice",
+        "layer": "*:monochrome"
+      },
+      "origins": [
+        "*:monochromes/alice/aurora",
+        "*:monochromes/alice/athame",
+        "*:monochromes/alice/aeon"
+      ]
+    }
+  ],
+  "name": "Glacialis",
+  "missing_name": "None",
+  "missing_description": "Not a cat."
+}

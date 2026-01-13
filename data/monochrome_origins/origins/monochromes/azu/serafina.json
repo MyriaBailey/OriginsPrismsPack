@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:azu/sera/sink"
+    ],
+    "icon": {
+        "id": "minecraft:iron_ingot"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Serafina",
+    "description": "An Azu, of some variety."
+}

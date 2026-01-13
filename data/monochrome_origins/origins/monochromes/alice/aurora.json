@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:alice/fur_color/white"
+    ],
+    "icon": {
+        "id": "minecraft:light_blue_wool"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Aurora",
+    "description": "The Light Cat."
+}

@@ -1,0 +1,32 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 3,
+    "duration_per_stack": 80,
+    "tick_rate": 20,
+    "effects": [
+        {
+            "id": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "id": "minecraft:speed",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "id": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "name": "Photosynthesis",
+    "description": "You are stronger and faster when exposed to the sunlight."
+}

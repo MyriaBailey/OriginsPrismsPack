@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:azu/ivy/photosynthesis"
+    ],
+    "icon": {
+        "id": "minecraft:vine"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Ivy",
+    "description": "The skittering plant."
+}

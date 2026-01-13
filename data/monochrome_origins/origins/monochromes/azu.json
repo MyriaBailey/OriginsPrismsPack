@@ -1,0 +1,11 @@
+{
+    "powers": [
+    ],
+    "icon": {
+        "id": "minecraft:heavy_core"
+    },
+    "order": 0,
+    "impact": 2,
+    "name": "Azu",
+    "description": "An Azu, of some variety."
+}

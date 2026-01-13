@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "*:alice/fur_color/gray"
+    ],
+    "icon": {
+        "id": "minecraft:light_gray_wool"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Athame",
+    "description": "The Mist Cat."
+}

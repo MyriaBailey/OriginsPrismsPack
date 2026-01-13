@@ -2,10 +2,10 @@
     "powers": [
     ],
     "icon": {
-        "id": "minecraft:wooden_sword"
+        "id": "minecraft:paper"
     },
     "order": 0,
     "impact": 0,
-    "name": "No Legend",
-    "description": "Your legend has yet to be recorded."
+    "name": "Unrecorded",
+    "description": "Such colors have not been recorded yet."
 }

@@ -1,0 +1,20 @@
+{
+  "order": 2,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "*:monochromes/azu",
+        "layer": "*:monochrome"
+      },
+      "origins": [
+        "*:monochromes/azu/ivy",
+        "*:monochromes/azu/serafina",
+        "*:monochromes/none"
+      ]
+    }
+  ],
+  "name": "Azu",
+  "missing_name": "None",
+  "missing_description": "Not an Azu."
+}

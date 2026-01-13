@@ -4,12 +4,15 @@
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "monochrome_origins:monochrome",
+        "origin": "*:monochrome",
         "layer": "origins:origin"
       },
       "origins": [
-        "monochrome_origins:monochromes/ema",
-        "monochrome_origins:monochromes/none"
+        "*:monochromes/alice",
+        "*:monochromes/aries",
+        "*:monochromes/azu",
+        "*:monochromes/ema",
+        "*:monochromes/none"
       ]
     }
   ],
