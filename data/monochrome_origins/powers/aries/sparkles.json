@@ -1,0 +1,9 @@
+{
+    "type": "origins:particle",
+    "particle": "cherry_leaves",
+    "count": 1,
+    "speed": 0.0,
+    "frequency": 5,
+    "visible_while_invisible": false,
+    "hidden": true
+}

@@ -16,8 +16,12 @@
                     "command": "trigger morph set 2"
                 },
                 {
-                    "type": "origins:heal",
-                    "amount": 10
+                    "type": "origins:delay",
+                    "ticks": 1,
+                    "action": {
+                        "type": "origins:heal",
+                        "amount": 10
+                    }
                 }
             ]
         }

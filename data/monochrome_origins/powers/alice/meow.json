@@ -1,0 +1,12 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.cat.ambient"
+    },
+    "name": "Meow",
+    "description": "Say noises."
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:multiple",
+    "hurt": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.bat.hurt",
+            "pitch": 1.1
+        }
+    },
+    "hidden": true
+}

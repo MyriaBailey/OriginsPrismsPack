@@ -1,0 +1,13 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.bat.ambient",
+        "pitch": 1.1
+    },
+    "name": "Squeak",
+    "description": "Make squeaky toy noises."
+}

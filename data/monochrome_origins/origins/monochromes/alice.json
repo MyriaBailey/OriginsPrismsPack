@@ -1,8 +1,10 @@
 {
     "powers": [
+        "*:alice/meow",
         "*:alice/cat_mode",
         "*:alice/throw_snowball",
-        "*:alice/snowflakes"
+        "*:alice/snowflakes",
+        "*:alice/cat_noises"
     ],
     "icon": {
         "id": "minecraft:powder_snow_bucket"

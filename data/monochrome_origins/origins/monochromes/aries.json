@@ -1,6 +1,9 @@
 {
     "powers": [
-        "*:aries/flying"
+        "*:aries/flying",
+        "*:aries/squeak",
+        "*:aries/squeaky_noises",
+        "*:aries/sparkles"
     ],
     "icon": {
         "id": "minecraft:pink_dye"
