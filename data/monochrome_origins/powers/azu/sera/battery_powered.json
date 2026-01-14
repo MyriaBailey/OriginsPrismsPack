@@ -1,0 +1,70 @@
+{
+    "type": "origins:multiple",
+    "cant_eat": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "monochrome_origins:power_source"
+                    },
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "redstone_dust": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "food_component": {
+            "nutrition": 2,
+            "saturation": 2.0,
+            "eat_seconds": 0.8
+        },
+        "consume_animation": "drink",
+        "consume_sound": "minecraft:block.redstone_torch.burnout"
+    },
+    "redstone_torch": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:redstone_torch"
+            }
+        },
+        "food_component": {
+            "nutrition": 2,
+            "saturation": 2.0,
+            "eat_seconds": 0.8
+        },
+        "consume_animation": "drink",
+        "consume_sound": "minecraft:block.redstone_torch.burnout"
+    },
+    "redstone_block": {
+        "type": "origins:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:redstone_block"
+            }
+        },
+        "food_component": {
+            "nutrition": 18,
+            "saturation": 18.0
+        },
+        "consume_animation": "drink",
+        "consume_sound": "minecraft:block.redstone_torch.burnout"
+    },
+    "name": "Battery-Powered",
+    "description": "You consume redstone instead of ordinary food."
+}

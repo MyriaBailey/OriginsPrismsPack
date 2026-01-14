@@ -1,6 +1,8 @@
 {
     "powers": [
-        "*:azu/sera/sink"
+        "*:azu/sera/battery_powered",
+        "*:azu/sera/sink",
+        "*:azu/sera/water_breathing"
     ],
     "icon": {
         "id": "minecraft:iron_ingot"
