@@ -7,10 +7,10 @@
         "origin": "jaina_origins:jaina_facet",
         "layer": "origins:origin"
       },
-      "origins": []
+      "origins": ["jaina_origins:mania"]
     }
   ],
   "name": "Jaina Facet",
   "missing_name": "None",
-  "missing_description": "You haven't selected anything."
+  "missing_description": "Is this even a Jaina?"
 }
