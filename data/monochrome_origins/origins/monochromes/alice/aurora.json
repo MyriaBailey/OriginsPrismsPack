@@ -1,5 +1,7 @@
 {
     "powers": [
+
+        "*:alice/aurora/throw_snowball",
         "*:alice/fur_color/white"
     ],
     "icon": {

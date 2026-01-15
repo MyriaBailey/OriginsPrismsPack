@@ -26,7 +26,7 @@
             "type": "origins:actor_action",
             "action": {
                 "type": "origins:play_sound",
-                "sound": "minecraft:entity.cat.beg_for_food"
+                "sound": "minecraft:entity.cat.purreow"
             }
         }
     },
