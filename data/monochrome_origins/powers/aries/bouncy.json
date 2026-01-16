@@ -1,0 +1,29 @@
+{
+    "type": "origins:multiple",
+    "bigbounce": {
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "y": 0.3
+    },
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": ">",
+        "compare_to": 15
+    }
+},
+        "smallbounce": {
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "y": 1
+    },
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": ">",
+        "compare_to": 6
+    }
+},
+            "name": "Bouncy",
+    "description": "Like a rubber ball."
+}

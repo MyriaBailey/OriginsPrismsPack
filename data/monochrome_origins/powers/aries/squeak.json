@@ -6,7 +6,7 @@
     "entity_action": {
         "type": "origins:play_sound",
         "sound": "minecraft:entity.bat.ambient",
-        "pitch": 1.1
+        "pitch": 0.9
     },
     "name": "Squeak",
     "description": "Make squeaky toy noises."

@@ -4,6 +4,7 @@
         "*:aries/squeak",
         "*:aries/squeaky_noises",
         "*:aries/lightweight",
+       "*:aries/bouncy",
         "*:aries/sparkles"
     ],
     "icon": {

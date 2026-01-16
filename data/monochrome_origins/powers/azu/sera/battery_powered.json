@@ -16,7 +16,8 @@
                     "inverted": true
                 }
             ]
-        }
+        },
+        "name": "Battery-Powered"
     },
     "redstone_dust": {
         "type": "origins:edible_item",
@@ -47,8 +48,13 @@
             "saturation": 2.0,
             "eat_seconds": 0.8
         },
+        "result_stack": {
+        "id": "minecraft:stick",
+        "amount": 1
+        },
         "consume_animation": "drink",
         "consume_sound": "minecraft:block.redstone_torch.burnout"
+
     },
     "redstone_block": {
         "type": "origins:edible_item",

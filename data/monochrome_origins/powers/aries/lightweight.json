@@ -2,8 +2,8 @@
     "type": "origins:action_when_hit",
     "bientity_action": {
         "type": "origins:add_velocity",
-        "z": 10,
-        "y": 5
+        "z": 2,
+        "y": 1
     },
         "name": "Small",
     "description": "Easily puntable."
